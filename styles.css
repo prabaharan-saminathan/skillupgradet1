@@ -1,0 +1,112 @@
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #f08080; /* Light Pink */
+  color: #fff; /* White */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;  /* Center the links horizontally */
+  position: fixed; /* Keep it fixed on top */
+  top: 0; /* Position at top */
+  right: 0; /* Position at left */
+  padding: 10px 20px;
+}
+
+.nav li {
+  margin: 0 10px; 
+  margin-right: 20px; /* Add some margin between list items */
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  color: #000;  /* Set default text color */
+  text-decoration: none;  /* Remove underline */
+  padding: 1px 2px;  /* Add some padding for better click target */
+  transition: background-color 0.3s ease-in-out;  /* Smooth transition for hover effect */
+}
+
+.nav a:hover {
+  background-color: #f0f0f0;  /* Change background color on hover */
+}
+
+
+/* Main Content */
+.main {
+  background-color: #e0ffff; /* Light Blue */
+}
+
+.hero {
+  background-color: #90ee90; /* Light Green */
+  padding: 30px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h4 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #ffd700; /* Gold */
+  color: #000; /* Black */
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Buttons */
+.btn {
+  background-color: #3498db; /* Blue */
+  color: #fff; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9; /* Darker Blue */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .container {
+      width:
